@@ -10,8 +10,8 @@ pipeline {
 
     environment {
         REPO_URL = 'https://github.com/huynhtranty/cicd-practice.git'
-        BRANCH_NAME = "${params.BRANCH_NAME}"
-        IMAGE_NAME = 'ntquan87/nodejs-app-ci-cd'
+        BRANCH_NAME = "${BRANCH_NAME}"
+        IMAGE_NAME = 'ntquan87/nodejs-app-ci-cd-22120418'
     }
 
 
